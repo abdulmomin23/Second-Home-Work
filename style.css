@@ -1,0 +1,26 @@
+
+
+nav{
+  display: flex;
+    padding-left: 90px;
+
+  justify-content: space-between;
+}
+
+nav h3{
+  padding-right: 480px;
+}
+
+
+nav >ul{
+  display: flex;
+}
+
+nav li{
+  list-style: none;
+  margin-right: 44px;
+}
+
+nav a{
+  text-decoration: none;
+}
