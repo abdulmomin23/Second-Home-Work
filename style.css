@@ -234,3 +234,34 @@ text-align: center;
 padding-top: 20px;
 margin-left: 350px;
 }
+
+
+
+/* footer style */
+
+.last{
+
+  padding-top: 50px;
+  margin-top: 100px;
+  background-color: rgb(220, 220, 220);
+  width: 1600px;
+height: 502px;
+flex-shrink: 0;
+text-align: center;
+}
+
+
+
+.socile-media{
+  display:flex;
+  gap:10px;
+  align-items: center;
+  padding: 100px 708px 110px 650px;
+  
+}
+
+hr{
+  width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+}
