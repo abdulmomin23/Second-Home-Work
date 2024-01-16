@@ -94,6 +94,10 @@ height: 52px;
 
 /* main section: Banner2 */
 
+.choise{
+  text-align: center;
+}
+
 .banner2{
   
   display: flex;
@@ -130,8 +134,103 @@ height: 550px;
  
 }
 
-.choise{
+
+.why{
+   margin-top: 100px;
   text-align: center;
+
+}
+
+.box{
+
+  display: flex;
+  
+  display: inline-flex;
+  gap: 10px;
+}
+#one{
+  width: 573px;
+height: 284px;
+flex-shrink: 0;
+background-color: rgb(230, 200, 163);
+border-radius: 16px;
+}
+
+#two{
+  width: 573px;
+height: 284px;
+flex-shrink: 0;
+background-color:aquamarine;
+border-radius: 16px;
+}
+
+.three{
+
+    margin-top: 20px;
+   margin-left: 500px;
+   width: 573px;
+height: 284px;
+flex-shrink: 0;
+background-color:rgb(162, 131, 90);
+border-radius: 16px;
+
 }
 
 
+
+
+/* Subscribe part */
+
+.last-banner{
+  display: flex;
+  padding-top: 100px;
+  margin-left: 250px;
+
+
+}
+
+.submit{
+  text-align: center;
+   background-color: rgb(250, 248, 248);
+   width: 370px;
+   height: 350px;
+   box-shadow: 0.7px 0.7px 0.7px rgb(206, 206, 205);
+   border-radius: 10px 10px 10px 10px;
+   border-top: 15px solid white;
+   margin-right: 70px;
+   margin-top: auto;
+   border-color: #FD6E0A;
+   
+  
+   
+}
+
+input{
+
+  width: 330px;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px;
+  border-color: rgb(251, 251, 252);
+  background-color: white;
+}
+
+#login{
+  width: 330px;
+  height: 50px;
+  color:white;
+  background-color:#FD6E0A;
+  border-radius: 10px 10px 10px 10px;
+  border-color: rgb(251, 251, 252);
+}
+
+#save{
+  width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+padding-top: 20px;
+margin-left: 350px;
+}
