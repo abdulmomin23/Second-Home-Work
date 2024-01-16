@@ -1,5 +1,5 @@
 
-
+/* hadder and nav styles */
 nav{
   display: flex;
     padding-left: 90px;
@@ -8,19 +8,126 @@ nav{
 }
 
 nav h3{
-  padding-right: 480px;
+  padding-right: 620px;
 }
 
 
 nav >ul{
   display: flex;
+  color: black;
+  padding-right: 127px;
 }
 
 nav li{
   list-style: none;
-  margin-right: 44px;
+  margin-right: 40px;
 }
 
 nav a{
   text-decoration: none;
 }
+
+/* main section style
+     Banner1
+*/
+
+.banner{
+  width: 1170px;
+  height: 500px;
+  background-image: url(./Images/Group\ 13.png);
+  
+  margin: 20px  180px;
+}
+
+.banner h1{
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  padding-top: 106px;
+}
+
+.banner p{
+  color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+ font-weight: 400;
+  line-height: 26px; 
+}
+.border{
+  width: 800px;
+  height: 84px;
+  
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  margin: 20px  180px;
+}
+
+.border ul input{
+  width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+}
+
+#Search{
+  width: 174px;
+height: 52px;
+  border-radius: 5px;
+    background: #FD6E0A;
+    border:0;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 35px;
+}
+
+
+
+/* main section: Banner2 */
+
+.banner2{
+  
+  display: flex;
+  padding-top: 100px;
+ 
+ 
+}
+
+.information{
+  background: #FFF;s
+    width: 90px;
+  height: 550px;
+
+  margin: 50px 200px;
+}
+
+.More{
+   width: 174px;
+   height: 52px;
+   border-radius: 5px;
+    background: #FD6E0A;
+    border:0;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 35px;
+}
+
+.img{
+  padding-right: 150px;
+   width: 540px;
+height: 550px;
+
+ 
+}
+
+
